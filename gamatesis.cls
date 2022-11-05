@@ -484,7 +484,7 @@
 % --------------
 % ---------- Bab
 
-\renewcommand{\thechapter}{\@Roman\c@chapter}
+\renewcommand{\thechapter}{\arabic{chapter}}
 
 \renewcommand{\@makechapterhead}[1]{%
   {\parindent \z@ \centering \normalfont
