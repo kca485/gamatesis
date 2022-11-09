@@ -237,7 +237,6 @@
 
 \newcommand{\halamanjudul}[1][bahasa]{
   \begin{otherlanguage}{#1}
-  \pagenumbering{roman}
   \addcontentsline{toc}{chapter}{Halaman Judul}
   \clearpage
     \begingroup
@@ -378,7 +377,6 @@
   \addcontentsline{toc}{chapter}{\contentsname}
   \setcounter{counter}{\value{page}}
   \tableofcontents
-  \pagenumbering{roman}
   \setcounter{page}{\value{counter}}
 }
 
@@ -393,7 +391,6 @@
   \addcontentsline{toc}{chapter}{\listtablename}
   \setcounter{counter}{\value{page}}
   \listoftables
-  \pagenumbering{roman}
   \setcounter{page}{\value{counter}}
 }
 
@@ -408,7 +405,6 @@
   \addcontentsline{toc}{chapter}{\listfigurename}
   \setcounter{counter}{\value{page}}
   \listoffigures
-  \pagenumbering{roman}
   \setcounter{page}{\value{counter}}
 }
 
@@ -426,7 +422,6 @@
   \addcontentsline{toc}{chapter}{\namadaftarlampiran}
   \setcounter{counter}{\value{page}}
   \listoflampiran
-  \pagenumbering{roman}
   \setcounter{page}{\value{counter}}
 }
 
@@ -450,7 +445,6 @@
   \addcontentsline{toc}{chapter}{\namadaftar}
   \setcounter{counter}{\value{page}}
   \listofpokok
-  \pagenumbering{roman}
   \setcounter{page}{\value{counter}}
 }
 
@@ -509,7 +503,6 @@
 }
 
 \renewcommand{\chapter}{
-  \pagenumbering{arabic}
   \doublespacing
   \oldchapter
 }
