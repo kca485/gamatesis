@@ -531,8 +531,7 @@
 
 \renewcommand{\thesubsubsection}{\thesubsection.\@alph\c@subsubsection}
 
-\titleformat{\subsubsection}[runin]{\normalfont\bfseries}{\thesubsubsection}{0.5em}{}{}
-\titlespacing{\subsubsection}{\parindent}{0pt}{1em}
+\titleformat{\subsubsection}[hang]{\normalfont\bfseries}{\thesubsubsection}{0.5em}{}{}
 
 
 
