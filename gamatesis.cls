@@ -478,7 +478,7 @@
 % --------------
 % ---------- Bab
 
-\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thechapter}{\Roman{chapter}}
 
 \renewcommand{\@makechapterhead}[1]{%
   {\parindent \z@ \centering \normalfont
@@ -513,6 +513,7 @@
 % -----------------
 % ---------- Subbab
 
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
 \titleformat{\section}[block]{\bfseries}{\thesection}{0.5em}{}{}
 
 
@@ -521,6 +522,7 @@
 % ----------------------
 % ---------- Anak subbab
 
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
 \titleformat{\subsection}[hang]{\bfseries}{\thesubsection}{0.5em}{}{}
 
 
@@ -530,7 +532,6 @@
 % ---------- Subanak subbab
 
 \renewcommand{\thesubsubsection}{\thesubsection.\@alph\c@subsubsection}
-
 \titleformat{\subsubsection}[hang]{\normalfont\bfseries}{\thesubsubsection}{0.5em}{}{}
 
 
