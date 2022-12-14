@@ -483,12 +483,12 @@
 \renewcommand{\@makechapterhead}[1]{%
   {\parindent \z@ \centering \normalfont
     \ifnum \c@secnumdepth >\m@ne
-        \LARGE\bfseries \MakeUppercase{\@chapapp\space  \thechapter}
+        \bfseries \MakeUppercase{\@chapapp\space  \thechapter}
         \par\nobreak
         \vskip 0\p@
     \fi
     \interlinepenalty\@M
-    \LARGE \bfseries #1\par\nobreak
+    \bfseries #1\par\nobreak
     \vskip 24\p@
   }
 }
@@ -497,7 +497,7 @@
   {\parindent \z@ \centering
     \normalfont
     \interlinepenalty\@M
-    \LARGE \bfseries  #1\par\nobreak
+    \bfseries  #1\par\nobreak
     \vskip 24\p@
   }
 }
@@ -513,7 +513,7 @@
 % -----------------
 % ---------- Subbab
 
-\titleformat{\section}[block]{\Large\bfseries}{\thesection}{0.5em}{}{}
+\titleformat{\section}[block]{\bfseries}{\thesection}{0.5em}{}{}
 
 
 
@@ -521,7 +521,7 @@
 % ----------------------
 % ---------- Anak subbab
 
-\titleformat{\subsection}[hang]{\large\bfseries}{\thesubsection}{0.5em}{}{}
+\titleformat{\subsection}[hang]{\bfseries}{\thesubsection}{0.5em}{}{}
 
 
 
