@@ -574,3 +574,11 @@
   \thispagestyle{empty}
   \addtocounter{page}{-1}
 }
+
+
+
+
+%--------------------------------
+% ---------- Quote
+\expandafter\def\expandafter\quote\expandafter{\quote\singlespacing}
+
